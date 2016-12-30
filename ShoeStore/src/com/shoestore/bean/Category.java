@@ -1,0 +1,47 @@
+package com.shoestore.bean;
+
+public class Category {
+	private int id;
+	private String name;
+	private String image;
+	private String description;
+	
+	public void setId(int id)
+	{
+		this.id = id;
+	}
+	public int getId()
+	{
+		return this.id;
+	}
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	public String getName()
+	{
+		return this.name;
+	}
+	
+	
+	public void setImage(String image)
+	{
+		
+		this.image = image;
+	}
+	public String getImage()
+	{
+		return this.image;
+	}
+	
+	
+	public void setDescription(String description)
+	{
+		this.description = description;
+	}
+	public String getDescription()
+	{
+		return this.description;
+	}
+}
